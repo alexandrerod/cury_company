@@ -99,7 +99,7 @@ def clean_code(dataset):
 # CARREGANDO OS DADOS
 #-----------
 
-df = pd.read_csv('proj01/train.csv')
+df = pd.read_csv('train.csv')
 dataset = clean_code(df)
 
 
