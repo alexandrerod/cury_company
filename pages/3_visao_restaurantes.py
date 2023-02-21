@@ -105,7 +105,7 @@ def clean_code(dataset):
 # CARREGANDO OS DADOS
 #-----------
 
-df = pd.read_csv('FTC/proj01/train.csv')
+df = pd.read_csv('train.csv')
 #------------
 # LIMPANDO OS DADOS
 #-----------
