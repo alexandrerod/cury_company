@@ -8,3 +8,4 @@ matplotlib-inline ==5.1.1
 haversine==2.7.0
 streamlit-folium==5.1.1
 Pillow==9.0.1
+
