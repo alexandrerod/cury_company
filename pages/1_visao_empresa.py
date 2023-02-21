@@ -1,7 +1,7 @@
 # Bibliotetecas para tratamento de dados
 import pandas as pd
 import numpy as np
-from streamlit_folium import folium_static
+
 # bibliotecas para apresentação gráfica
 
 import plotly.express as px
@@ -26,7 +26,7 @@ def order_map(dafaset):
                     location['Restaurant_longitude']],
                     popup=location[['City','Road_traffic_density']]).add_to(map)
 
-    folium_static(map, width=1024, height=600)
+    
     return None
 def order_by_person_week(dataset):
     df1 = dataset.loc[:, ['ID', 'week']].groupby(['week']).count().reset_index()
