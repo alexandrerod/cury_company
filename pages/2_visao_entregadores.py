@@ -1,8 +1,6 @@
 # Bibliotetecas para tratamento de dados
 import pandas as pd
 import numpy as np
-from haversine import haversine
-from streamlit_folium import folium_static
 # bibliotecas para apresentação gráfica
 
 import plotly.express as px
