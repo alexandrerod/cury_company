@@ -7,6 +7,7 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 import folium
+from streamlit_folium import folium_static
 
 import streamlit as st
 
@@ -25,6 +26,8 @@ def order_map(dafaset):
         folium.Marker([location['Restaurant_latitude'], 
                     location['Restaurant_longitude']],
                     popup=location[['City','Road_traffic_density']]).add_to(map)
+    
+    folium_static(map, width=1024, height=600)
 
     
     return None
