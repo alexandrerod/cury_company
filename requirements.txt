@@ -1,0 +1,11 @@
+
+folium==0.14.0
+haversine==2.7.0
+matplotlib @ file:///C:/ci/matplotlib-suite_1647423638658/work
+matplotlib-inline @ file:///tmp/build/80754af9/matplotlib-inline_1628242447089/work
+numpy @ file:///C:/ci/numpy_and_numpy_base_1649782970434/work
+pandas @ file:///C:/ci/pandas_1650373458095/work
+Pillow==9.0.1
+plotly @ file:///opt/conda/conda-bld/plotly_1646671701182/work
+streamlit==1.18.1
+streamlit-folium==0.11.1
